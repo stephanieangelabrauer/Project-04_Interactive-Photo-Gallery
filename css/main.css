@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+img {
+	border-radius: 5px;
+}
+
+#searchBox {
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 30px;
+	padding: 16px;
+	width: 90%;		
+	display: block;
+	font-size: 14px;
+	border: 1.5px solid #e5e5e5;
+	border-radius: 5px;
+}
+
+#searchBox:focus {
+	border-color: #b7b7b7;
+}
+
+#gallerywrap {
+	width: 85%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	display: flex;
+	margin: 0 auto 0 auto;	
+}
+
+#gallerywrap a {
+	padding: 14px;
+}
+
+.no-results{
+  pointer-events: none;
+  text-decoration:none;
+  color: black;
+  font-size: 14px;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+@media (min-width: 768px) {
+
+body {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+#searchBox {
+	margin-bottom: 60px;
+}
+
+#searchBox {	
+	width: 40%;		
+}	
+
+#gallerywrap {
+	width: 80%;
+	max-width: 1000px;}	
+}

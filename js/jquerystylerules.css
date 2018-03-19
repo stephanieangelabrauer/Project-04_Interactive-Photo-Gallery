@@ -1,0 +1,8 @@
+//Design changes for the hideseek plugin: Turn off pointer events if no images are found and change its display 
+
+.no-results{
+  pointer-events: none;
+  text-decoration:none;
+  color: black;
+  font-size: 14px;
+}
